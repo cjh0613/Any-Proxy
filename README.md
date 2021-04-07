@@ -1,6 +1,7 @@
 > Any-Proxy可以帮助你完美地反向代理浏览任意网站  
 > 免去复杂的程序，不到10KB文件，兼容性极好  
   
+> 添加了建议的密码访问，默认密码web  
 > 最新版本将退出指令改成了~q 这将在输入时更加便捷  
 > 需配置伪静态，nginx伪静态规则如下：  
 > if ( !-e $request_filename) {  
@@ -18,9 +19,9 @@
   
 > 在当前链接末尾输入 ~q 可以退出当前页面回到首页  
 > 在域名后面加上链接地址即可访问：  
-> https://turl.chat/http://+需访问的链接 （必须添加http(s)://）  
+> https://www.com/http://+需访问的链接 （目标链接必须添加http(s)://）  
   
-> 如 ：https://turl.chat/http://ip38.com/  
+> 如 ：https://www.com/http://ip38.com/  
   
 ![Image](https://p.pstatp.com/origin/fe81000376fc445be379)  
 ![Image](https://p.pstatp.com/origin/137b90001905c99862df3)  
